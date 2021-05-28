@@ -29,9 +29,19 @@
     .second_item-text{
         width: 100%;
     }
-@media (min-width: 780px){
+@media (min-width: 880px){
     .section.second{
         padding: 40px;
         flex-direction: row;
+    }
+}
+@media (min-width: 880px) and (max-width: 1050px){
+    .second_item-image{
+        width: 230px;
+        height: 130px;
+    }
+    .second_item-image > img{
+        width: 230px;
+        height: 130px;
     }
 }
