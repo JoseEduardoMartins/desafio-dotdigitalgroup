@@ -29,13 +29,13 @@
     .second_item-text{
         width: 100%;
     }
-@media (min-width: 880px){
+@media (min-width: 800px){
     .section.second{
         padding: 40px;
         flex-direction: row;
     }
 }
-@media (min-width: 880px) and (max-width: 1050px){
+@media (min-width: 800px) and (max-width: 1050px){
     .second_item-image{
         width: 230px;
         height: 130px;

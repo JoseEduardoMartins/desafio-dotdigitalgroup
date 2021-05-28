@@ -15,7 +15,7 @@
     .first-caption{
         font-size: 25px;
     }
-@media (min-width: 780px){
+@media (min-width: 800px){
     .section.first{
         height: 750px;
         margin-top: 0px;
