@@ -1,5 +1,5 @@
 .footer{
-    height: 40px;
+    height: 80px;
     align-items: center;
     display: flex;
     justify-content: center;
@@ -8,8 +8,3 @@
         font-size: 25px;
         font-weight: bold;
     }
-@media (min-width: 800px) {
-    .footer{
-        height: 80px;
-    }
-}
