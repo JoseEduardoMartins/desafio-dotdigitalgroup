@@ -1,4 +1,4 @@
-.section.first{
+.section.first {
     background-image: url("../assets/img.png");
     background-repeat: no-repeat;
     position: relative;
@@ -8,30 +8,30 @@
     padding-top: 220px;
     height: 100px;
 }
-    .first-title{
-        font-size: 55px;
-        margin-top: -370px;
-    }
-    .first-caption{
-        font-size: 25px;
-    }
+.first-title{
+    font-size: 55px;
+    margin-top: -370px;
+}
+.first-caption{
+    font-size: 25px;
+}
 @media (min-width: 500px) {
     .section.first{
         height: 300px;
     }
 }
-@media (min-width: 800px) {
+@media (min-width: 800px){
     .section.first{
         height: 750px;
         margin-top: 0px;
         padding-top: 0px;
     }
-        .first-title{
-            padding-top: 40px;
-            color: #4D6224;
-            margin-top: 0px;
-        }
-        .first-caption{
-            color: #233402;
-        }
+    .first-title{
+        padding-top: 40px;
+        color: #4D6224;
+        margin-top: -0px;
+    }
+    .first-caption{
+        color: 	#233402;
+    }
 }
