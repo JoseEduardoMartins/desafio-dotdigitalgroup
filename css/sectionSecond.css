@@ -3,7 +3,6 @@
     align-items: center;
     justify-content: space-around;
     flex-direction: column;
-
     padding-top: 20px;
 }
     .second_item{
@@ -13,7 +12,7 @@
     }
     .second_item-image{
         margin: auto;
-        border: 10px solid	#707271;
+        border: 10px solid #707271;
         width: 300px;
         height: 200px;
     }
@@ -29,7 +28,7 @@
     .second_item-text{
         width: 100%;
     }
-@media (min-width: 800px){
+@media (min-width: 800px) {
     .section.second{
         padding: 40px;
         flex-direction: row;
