@@ -11,13 +11,13 @@
         overflow: hidden;
         box-shadow: 0 0 10px #212121;
         margin: 20px auto 20px;
-        width: 350px;
-        height: 350px;
+        width: 250px;
+        height: 250px;
     }
     .third_image > img{
-        width: 350px;
-        height: 350px;
-}
+        width: 250px;
+        height: 250px;
+    }
     .third_text{
         width: calc( 100% - 30px);
         margin: auto;
@@ -36,14 +36,32 @@
     .third_text-paragraph.italico{
         font-style:italic;
     }
-@media (min-width: 800px){
+@media (min-width: 360px){
+    .third_image{
+        width: 300px;
+        height: 300px;
+    }
+    .third_image > img{
+        width: 300px;
+        height: 300px;
+    }
+}
+@media (min-width: 830px){
     .section.third{
         padding-top: 37px;
         padding-bottom: 37px;
         flex-direction: row;
         text-align: initial;
     }
-    .third_text{
-        width: 50%;
-    }
+        .third_image{
+            width: 350px;
+            height: 350px;
+        }
+        .third_image > img{
+            width: 350px;
+            height: 350px;
+        }
+        .third_text{
+            width: 50%;
+        }
 }

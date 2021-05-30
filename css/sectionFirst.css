@@ -9,18 +9,25 @@
     height: 100px;
 }
 .first-title{
-    font-size: 55px;
+    font-size: 45px;
     margin-top: -370px;
 }
 .first-caption{
-    font-size: 25px;
+    font-size: 20px;
 }
 @media (min-width: 500px) {
     .section.first{
         height: 300px;
     }
+    .first-title{
+        font-size: 55px;
+        margin-top: -370px;
+    }
+    .first-caption{
+        font-size: 25px;
+    }
 }
-@media (min-width: 800px){
+@media (min-width: 830px){
     .section.first{
         height: 750px;
         margin-top: 0px;
