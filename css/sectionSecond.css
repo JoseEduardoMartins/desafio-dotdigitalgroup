@@ -43,16 +43,14 @@
         padding: 40px;
         flex-direction: row;
     }
-}
-@media (min-width: 830px) and (max-width: 1050px){
-    .second_item-image{
-        width: 230px;
-        height: 130px;
-    }
-    .second_item-image > img{
-        width: 230px;
-        height: 130px;
-    }
+        .second_item-image{
+            width: 230px;
+            height: 130px;
+        }
+        .second_item-image > img{
+            width: 230px;
+            height: 130px;
+        }
 }
 @media (min-width: 1050px) {
     .second_item-image{
